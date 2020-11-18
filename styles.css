@@ -145,7 +145,7 @@ section > h5 {
 
 /* Responsiveness */
 
-@media(max-width: 600px) {
+@media(max-width: 634px) {
     .fixed-top {
         flex-direction: column;
     }
