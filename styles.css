@@ -19,7 +19,7 @@ header {
     background-position: 35% 35%;
     background-repeat: no-repeat;
     background-size: cover;
-   border-bottom: 2px solid #22442a;
+    border-bottom: 2px solid #22442a;
 
     /* Center items flexbox fallback */
     display: flex;
@@ -33,12 +33,15 @@ header h1 {
     font-size: 5.4rem;
     font-weight: 300;
     color: #ffffff;
-   text-shadow: 0 0 18px #000;
-   background-color: rgba(0, 0, 0, 0.61)
+    text-shadow: 0 0 18px #000;
 }
 
 section {
     margin-bottom: 5rem;
+}
+
+h2{
+    padding-top: 5rem;
 }
 
 h3 {
@@ -76,7 +79,8 @@ section > h5 {
     left: 0;
     right: 0;
     z-index: 100;
-    background-color: #1e4929;
+    /*background-color: #1e4929;*/
+    background-color: #157e3d;
     display: flex;
     justify-content: space-between;
     font-size: 1.4rem;
@@ -98,7 +102,7 @@ section > h5 {
     margin-left: .6rem;
     padding: 0 .6rem;
     text-decoration: none;
-    color: #4dce7e;
+    color: #ffffff;
     transition: .08s;
 }
 
@@ -106,7 +110,6 @@ section > h5 {
     background-color: #2f6a57;
     color: #ffffff;
 }
-
 
 /* Urban Farming Section */
 
@@ -117,18 +120,18 @@ section > h5 {
     font-size: 1.2rem;
 }
 
-/* Benefits Section */
+/* Challenge Page */
 
-#benefits1 p {
+#challenge p {
     max-width: 95%;
     width: 1000px;
     margin: 0 auto;
     font-size: 1.2rem;
 }
 
-/* About Us Section */
+/* Solution Page */
 
-#practice1 p {
+#solution p {
     max-width: 95%;
     width: 1000px;
     margin: 0 auto;
@@ -142,7 +145,13 @@ section > h5 {
     justify-content: center;
 }
 
-
+/* UN Goal */
+#ungoal p {
+    max-width: 95%;
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
 
 /* Responsiveness */
 
