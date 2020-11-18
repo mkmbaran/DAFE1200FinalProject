@@ -1,0 +1,166 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    background: #f8fcfa;
+}
+
+section {
+    margin-bottom: 4rem;
+}
+
+/* Header */
+
+header {
+    min-height: 100vh;
+
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/3d/New_crops-Chicago_urban_farm.jpg");
+    background-position: 35% 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+   border-bottom: 2px solid #22442a;
+
+    /* Center items flexbox fallback */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header h1 {
+    padding: 2rem 8rem;
+    font-size: 5.4rem;
+    font-weight: 300;
+    color: #ffffff;
+   text-shadow: 0 0 18px #000;
+}
+
+section {
+    margin-bottom: 5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+/* Section Header */
+
+section > h2 {
+    position: relative;
+    text-align: center;
+    width: 84%;
+    margin: 3rem auto;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #384d45;
+}
+section > h5 {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin: 4rem auto;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #384d45;
+    text-shadow: #110b15;
+}
+
+
+/* Fixed Header */
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: #1e4929;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    box-shadow: 0 0 7px rgba(13, 27, 15, 0.08);
+    align-items: center;
+}
+
+.fixed-top nav {
+    padding: .6rem 2rem;
+}
+
+.fixed-top .brand {
+    color: #4dce7e;
+    padding: 0 2rem;
+    font-size: 2rem;
+}
+
+.fixed-top nav a {
+    margin-left: .6rem;
+    padding: 0 .6rem;
+    text-decoration: none;
+    color: #4dce7e;
+    transition: .08s;
+}
+
+.fixed-top nav a:hover {
+    background-color: #2f6a57;
+    color: #ffffff;
+}
+
+
+/* Urban Farming Section */
+
+#urban p {
+    max-width: 95%;
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+
+/* Benefits Section */
+
+#benefits p {
+    max-width: 95%;
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+
+/* About Us Section */
+
+#practice p {
+    max-width: 95%;
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+
+.item img{
+    opacity: 0.8;
+    height: auto;
+    max-width: 40%;
+    justify-content: center;
+}
+
+
+
+/* Responsiveness */
+
+@media(max-width: 600px) {
+    .fixed-top {
+        flex-direction: column;
+    }
+
+    .fixed-top nav a {
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 1168px) {
+    #staff .profile {
+        padding: 0 .5rem;
+    }
+
+    #staff .list {
+        flex-wrap: wrap;
+    }
+}
