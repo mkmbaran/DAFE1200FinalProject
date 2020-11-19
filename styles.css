@@ -1,25 +1,31 @@
 html, body {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
     background: #f8fcfa;
-}
 
+
+}
+/*
 section {
     margin-bottom: 4rem;
 }
+
+ */
 
 /* Header */
 
 header {
     min-height: 100vh;
-
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/3d/New_crops-Chicago_urban_farm.jpg");
-    background-position: 35% 35%;
+    background-image:url("images/farming.jpg");
+    background-position: top right;
+    display: grid;
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom: 2px solid #22442a;
+
+
 
     /* Center items flexbox fallback */
     display: flex;
@@ -28,12 +34,10 @@ header {
     align-items: center;
 }
 
-header h1 {
-    padding: 2rem 8rem;
+h1 span {
     font-size: 5.4rem;
-    font-weight: 300;
-    color: #ffffff;
-    text-shadow: 0 0 18px #000;
+    font-weight: 400;
+    text-shadow: 0 0 18px #dd4949;
 }
 
 section {
@@ -59,6 +63,12 @@ section > h2 {
     font-weight: 400;
     color: #384d45;
 }
+
+section > h2 > span {
+    background-color: #ffffff;
+    padding: 0 2rem;
+}
+
 section > h5 {
     position: relative;
     text-align: center;
@@ -71,7 +81,7 @@ section > h5 {
 }
 
 
-/* Fixed Header */
+/* Fixed Top */
 
 .fixed-top {
     position: fixed;
@@ -79,7 +89,8 @@ section > h5 {
     left: 0;
     right: 0;
     z-index: 100;
-    /*background-color: #1e4929;*/
+
+
     background-color: #157e3d;
     display: flex;
     justify-content: space-between;
@@ -93,10 +104,11 @@ section > h5 {
 }
 
 .fixed-top .brand {
-    color: #4dce7e;
+    color: #f7faf9;
     padding: 0 2rem;
     font-size: 2rem;
 }
+
 
 .fixed-top nav a {
     margin-left: .6rem;
@@ -110,6 +122,7 @@ section > h5 {
     background-color: #2f6a57;
     color: #ffffff;
 }
+
 
 /* Urban Farming Section */
 
@@ -148,14 +161,36 @@ section > h5 {
 /* UN Goal */
 #ungoal p {
     max-width: 95%;
-    width: 1000px;
+    width: 1600px;
     margin: 0 auto;
     font-size: 1.2rem;
+    padding: 40px;
+    background-color: #cfcdcb;
 }
+/*footer*/
+footer {
+    background-color: #157e3d;
+    padding: 5rem;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+footer a:hover {
+    color: #090808;
+    background-color: #f8f6f6;
+    font-weight: bold;
+
+}
+
 
 /* Responsiveness */
 
-@media(max-width: 634px) {
+@media(max-width: 600px) {
     .fixed-top {
         flex-direction: column;
     }
@@ -163,14 +198,20 @@ section > h5 {
     .fixed-top nav a {
         font-size: 1rem;
     }
+
+
 }
 
+
 @media(max-width: 1168px) {
-    #staff .profile {
+    #urban1 .h2 {
         padding: 0 .5rem;
     }
 
-    #staff .list {
+    #home .h1 {
         flex-wrap: wrap;
     }
 }
+
+
+
