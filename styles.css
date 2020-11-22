@@ -18,6 +18,11 @@ section {
 header {
     min-height: 100vh;
     background-image:url("images/farming.jpg");
+    /* 
+     * Image taken by Linda N.
+     * Found at: https://en.wikipedia.org/wiki/Urban_agriculture#/media/File:New_crops-Chicago_urban_farm.jpg
+     * License can be found at: creativecommons.org/licenses/by/2.0/
+     */
     background-position: top right;
     background-repeat: no-repeat;
     background-size: cover;
