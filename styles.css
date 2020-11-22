@@ -13,11 +13,6 @@ section {
     margin-bottom: 4rem;
 }
 
-#urban1 {
-    margin-bottom: 0%;
-}
-
-
 /* Header */
 
 header {
@@ -162,6 +157,11 @@ a:hover:after {
 
 }
 
+#urban1 {
+    margin-bottom: 0rem;
+}
+
+
 /* Challenge Page */
 
 #challenge p {
@@ -170,6 +170,7 @@ a:hover:after {
     margin: 0 auto;
     font-size: 1.2rem;
 }
+
 #urban1 p{
     color: #05386B;
 
