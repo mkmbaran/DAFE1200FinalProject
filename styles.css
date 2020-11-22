@@ -17,7 +17,8 @@ section {
 
 header {
     min-height: 100vh;
-    background-image:url("images/farming.jpg");
+    /*background-image:url("images/farming.jpg");*/
+    background-image:url("images/farmingblack.jpg");
     background-position: top right;
     background-repeat: no-repeat;
     background-size: cover;
