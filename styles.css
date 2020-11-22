@@ -3,16 +3,17 @@ html, body {
     padding: 0;
   font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
-    background: #f8fcfa;
+    /*background: #f8fcfa;*/
+    background:#ffffff;
 
 
 }
-/*
+
 section {
     margin-bottom: 4rem;
 }
 
- */
+
 
 /* Header */
 
@@ -20,7 +21,6 @@ header {
     min-height: 100vh;
     background-image:url("images/farming.jpg");
     background-position: top right;
-    display: grid;
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom: 2px solid #22442a;
@@ -69,16 +69,6 @@ section > h2 > span {
     padding: 0 2rem;
 }
 
-section > h5 {
-    position: relative;
-    text-align: center;
-    width: 100%;
-    margin: 4rem auto;
-    font-size: 1.5rem;
-    font-weight: 500;
-    color: #384d45;
-    text-shadow: #110b15;
-}
 
 
 /* Fixed Top */
@@ -121,7 +111,42 @@ section > h5 {
 .fixed-top nav a:hover {
     background-color: #2f6a57;
     color: #ffffff;
+    }
+/*--------------------animation top nav bar----------------------*/
+/*
+nav {
+    margin: 30px auto 0;
+    padding: 0;
+    list-style: none;
+    display: table;
+    width: 600px;
+    text-align: center;
 }
+a {
+    position: relative;
+    padding: 15px 0;
+}
+a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+ */
+/*----------------end animaion nav bar----------------------*/
+
+
 
 
 /* Urban Farming Section */
@@ -131,6 +156,7 @@ section > h5 {
     width: 1000px;
     margin: 0 auto;
     font-size: 1.2rem;
+
 }
 
 /* Challenge Page */
@@ -140,6 +166,10 @@ section > h5 {
     width: 1000px;
     margin: 0 auto;
     font-size: 1.2rem;
+}
+#urban1 p{
+    color: #05386B;
+
 }
 
 /* Solution Page */
@@ -190,7 +220,7 @@ footer a:hover {
 
 /* Responsiveness */
 
-@media(max-width: 600px) {
+@media(max-width: 640px) {
     .fixed-top {
         flex-direction: column;
     }
