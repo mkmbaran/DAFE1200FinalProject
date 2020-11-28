@@ -223,6 +223,10 @@ a:hover:after {
 
 /* Solution Page */
 
+#solution {
+    margin-bottom: 0px;
+}
+
 #solution p {
     max-width: 95%;
     width: 75%;
