@@ -229,6 +229,13 @@ a:hover:after {
     font-size: 1.2rem;
 }
 
+#solution ul{
+    max-width: 95%;
+    width: 75%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+
 /*--------------Delete! this not in use---------*/
 /*
 .item img{
