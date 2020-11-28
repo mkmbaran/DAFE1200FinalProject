@@ -11,7 +11,7 @@ section {
     margin-bottom: 4rem;
 }
 
-/* Header */
+/*------------------------------Main Header--------------------------------- */
 
 header {
     min-height: 100vh;
@@ -54,9 +54,15 @@ h2{
 
 h3 {
     font-size: 1.5rem;
+    text-align: center;
+    position: relative;
+    font-weight: initial;
+    background-color: #b8b880;
+    padding: 10px;
+
 }
 
-/* Section Header */
+/*------------------------------Section Header------------------------------ */
 
 section > h2 {
     position: relative;
@@ -72,10 +78,34 @@ section > h2 > span {
     background-color: #ffffff;
     padding: 0 2rem;
 }
+/*--------------------Button section---------------------------------*/
+.button {
+    background-color: #b6e58d;
+    border: none;
+    color: #030000;
+    padding: 15px 42px;
+    text-align: center;
+    text-decoration: none;
+    /*text-shadow: 1px 1px #272727;*/
+    display: inline-block;
+    font-size: 15px;
+    font-family: "Roboto Regular";
+    border-radius: 4em;
+    margin: 5% 2%;
+    font-weight: bold;
+}
+.button:hover {
+    background-color: #ffe400;
+    color: #030300;
+    text-shadow: none;
+    font-weight: bold;
+}
 
+.box .button {
+    font-size: 30px;
+}
 
-
-/* Fixed Top */
+/*-------------------------------Fixed Top-----------------------------------*/
 
 .fixed-top {
     position: fixed;
@@ -105,7 +135,7 @@ section > h2 > span {
 
 
 .fixed-top nav a {
-    margin-left: .6rem;
+    margin-left: 6rem;
     padding: 0 .6rem;
     text-decoration: none;
     color: #ffffff;
@@ -116,6 +146,8 @@ section > h2 > span {
     background-color: #2f6a57;
     color: #ffffff;
     }
+
+
 /*--------------------animation top nav bar----------------------*/
 /*
 nav {
@@ -128,7 +160,10 @@ nav {
 }
 a {
     position: relative;
+   margin-right: 5rem;
     padding: 15px 0;
+
+
 }
 a:after {
     background: none repeat scroll 0 0 transparent;
@@ -177,7 +212,9 @@ a:hover:after {
     width: 75%;
     margin: 0 auto;
     font-size: 1.2rem;
+
 }
+
 
 #urban1 p{
     color: #05386B;
@@ -188,12 +225,13 @@ a:hover:after {
 
 #solution p {
     max-width: 95%;
-    /*width: 1000px;*/
     width: 75%;
     margin: 0 auto;
     font-size: 1.2rem;
 }
 
+/*--------------Delete! this not in use---------*/
+/*
 .item img{
     opacity: 0.8;
     height: auto;
@@ -201,10 +239,18 @@ a:hover:after {
     justify-content: center;
 }
 
+ */
+
+
+/*---------------------Delete---------*/
+
+
+
+
+
 /* UN Goal */
 #ungoal p {
     max-width: 95%;
-    /*width: 1600px;*/
     width: 75%;
     margin: 0 auto;
     font-size: 1.2rem;
