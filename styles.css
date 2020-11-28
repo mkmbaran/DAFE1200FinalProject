@@ -135,8 +135,8 @@ section > h2 > span {
 
 
 .fixed-top nav a {
-    margin-left: 6rem;
-    padding: 0 .6rem;
+    margin-left: 3rem;
+    /*padding: 0 .2rem;*/
     text-decoration: none;
     color: #ffffff;
     transition: .08s;

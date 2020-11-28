@@ -1,19 +1,23 @@
+/*
+
 p {
     text-align: center;
 }
 
-h1 span {
-    font-size: 5rem;
+
+section > h2 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 40px;
 }
 
-#ungoal p {
+#urban h2 {
+    margin-bottom: 20px;
 }
 
-
-#unban1 p {
-    font-size: 1rem;
-    margin: 0px;
-    font-size: 1rem;
+#urban1 p {
+    font-size: 1.2rem;
 }
 
 .fixed-top nav {
@@ -24,7 +28,7 @@ h1 span {
     margin: 0px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 
 nav {
@@ -33,9 +37,6 @@ nav {
     padding-right: 10px;
 }
 
-footer {
-    display: block;
-    text-align: center;
-    padding: 80px 60px;
-}
+
+
 
