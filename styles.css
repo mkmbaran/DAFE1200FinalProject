@@ -243,9 +243,6 @@ a:hover:after {
     font-size: 1.2rem;
 }
 
-<<<<<<< HEAD
-}
-=======
 #solution ul{
     max-width: 95%;
     width: 75%;
@@ -253,7 +250,6 @@ a:hover:after {
     font-size: 1.2rem;
 }
 
->>>>>>> da578dbc259519a4af0813d5da51ae669137e0e6
 /*--------------Delete! this not in use---------*/
 /*
 .item img{
@@ -301,6 +297,26 @@ footer a:hover {
     background-color: #f8f6f6;
     font-weight: bold;
 
+}
+
+.source{
+    max-width: 95%;
+    width: 75%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+.source p{
+    max-width: 95%;
+    width: 75%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+
+.source a{
+    max-width: 95%;
+    width: 75%;
+    margin: 0 auto;
+    font-size: 1.2rem;
 }
 
 
