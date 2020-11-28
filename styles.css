@@ -80,9 +80,9 @@ section > h2 > span {
 }
 /*--------------------Button section---------------------------------*/
 .button {
-    background-color: #b6e58d;
+    background-color: #157e3d;
     border: none;
-    color: #030000;
+    color: white;
     padding: 15px 42px;
     text-align: center;
     text-decoration: none;
