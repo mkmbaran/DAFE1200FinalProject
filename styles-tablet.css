@@ -30,7 +30,7 @@ section > h2 {
     margin: 0px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 1rem;
+    font-size: 15%;
 }
 
 nav {
@@ -39,5 +39,20 @@ nav {
     padding-right: 10px;
 }
 
+.fixed-top {
+    flex-direction: column;
+}
+
+.fixed-top nav a {
+    font-size: 1rem;
+}
+
+#urban1 .h2 {
+    padding: 0 .5rem;
+}
+
+#home .h1 {
+    flex-wrap: wrap;
+}
 
 

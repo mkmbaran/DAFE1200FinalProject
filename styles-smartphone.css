@@ -22,6 +22,14 @@ section > h2 {
     font-size: 0.75rem;
 }
 
+#home .h1 {
+    flex-wrap: wrap;
+}
+
+.fixed-top {
+    flex-direction: column;
+}
+
 .fixed-top nav {
     padding: 15px 0px;
 }
@@ -43,5 +51,10 @@ footer {
     display: block;
     text-align: center;
     padding: 80px 60px;
+}
+
+
+#urban1 .h2 {
+    padding: 0 .5rem;
 }
 

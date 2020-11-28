@@ -328,9 +328,9 @@ footer a:hover {
 }
 
 
-/* Responsiveness */
-
-@media(max-width: 640px) {
+/*
+@media(max-width: 640px) { 
+*/
     .fixed-top {
         flex-direction: column;
     }
@@ -339,11 +339,12 @@ footer a:hover {
         font-size: 1rem;
     }
 
-
+/*
 }
+*/
 
-
-@media(max-width: 1168px) {
+/*@media(max-width: 1168px) {
+*/
     #urban1 .h2 {
         padding: 0 .5rem;
     }
@@ -351,7 +352,7 @@ footer a:hover {
     #home .h1 {
         flex-wrap: wrap;
     }
-}
+/*}*/
 
 
 
