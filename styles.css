@@ -57,7 +57,6 @@ h3 {
     text-align: center;
     position: relative;
     font-weight: initial;
-    background-color: #b8b880;
     padding: 10px;
 
 }
@@ -80,9 +79,9 @@ section > h2 > span {
 }
 /*--------------------Button section---------------------------------*/
 .button {
-    background-color: #b6e58d;
+    background-color: #157e3d;
     border: none;
-    color: #030000;
+    color: white;
     padding: 15px 42px;
     text-align: center;
     text-decoration: none;
@@ -228,6 +227,13 @@ a:hover:after {
 }
 
 #solution p {
+    max-width: 95%;
+    width: 75%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+
+#solution ul{
     max-width: 95%;
     width: 75%;
     margin: 0 auto;
