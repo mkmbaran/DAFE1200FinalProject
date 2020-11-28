@@ -20,10 +20,17 @@ h1 span {
     padding: 15px 0px;
 }
 
+.fixed-top nav a {
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.75rem;
+}
+
 nav {
-    font-size: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
+    font-size: 0.5rem;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 footer {
@@ -31,3 +38,4 @@ footer {
     text-align: center;
     padding: 80px 60px;
 }
+
