@@ -212,6 +212,15 @@ a:hover:after {
     width: 75%;
     margin: 0 auto;
     font-size: 1.2rem;
+}
+
+#challenge img{
+    max-width: 50%;
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 3rem;
 
 }
 
@@ -234,6 +243,9 @@ a:hover:after {
     font-size: 1.2rem;
 }
 
+<<<<<<< HEAD
+}
+=======
 #solution ul{
     max-width: 95%;
     width: 75%;
@@ -241,6 +253,7 @@ a:hover:after {
     font-size: 1.2rem;
 }
 
+>>>>>>> da578dbc259519a4af0813d5da51ae669137e0e6
 /*--------------Delete! this not in use---------*/
 /*
 .item img{
@@ -251,6 +264,8 @@ a:hover:after {
 }
 
  */
+
+
 
 
 /*---------------------Delete---------*/
