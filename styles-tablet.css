@@ -1,18 +1,24 @@
 p {
     text-align: center;
+    font-size: 1.5rem;
 }
 
 h1 span {
     font-size: 3.5rem;
 }
 
-#ungoal p {
+section > h2 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 40px;
 }
 
+#urban h2 {
+    margin-bottom: 20px;
+}
 
-#unban1 p {
-    font-size: 1rem;
-    margin: 0px;
+#urban1 p {
     font-size: 1rem;
 }
 
