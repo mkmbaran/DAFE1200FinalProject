@@ -330,21 +330,17 @@ footer a:hover {
 
 /*
 @media(max-width: 640px) { 
-*/
     .fixed-top {
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .fixed-top nav a {
         font-size: 1rem;
     }
-
-/*
 }
 */
 
 /*@media(max-width: 1168px) {
-*/
     #urban1 .h2 {
         padding: 0 .5rem;
     }
@@ -352,7 +348,7 @@ footer a:hover {
     #home .h1 {
         flex-wrap: wrap;
     }
-/*}*/
+}*/
 
 
 
