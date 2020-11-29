@@ -337,7 +337,7 @@ footer a:hover {
     box-shadow: none;
     object-fit: cover;
     margin-bottom: 2rem;
-    height: 450px;
+    max-height: 40rem;
 }
 
 .ungoal img{
