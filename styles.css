@@ -276,7 +276,7 @@ a:hover:after {
     margin-bottom: 2rem;
 }
 .app-menu img{
-    float: left;
+    float: right;
     object-fit: cover;
     max-height: 50rem;
     width: auto;
