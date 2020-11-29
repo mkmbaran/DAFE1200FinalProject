@@ -52,7 +52,7 @@ section {
 
 h2{
 
-    font-size: 1.9rem;
+    font-size: 2rem;
     padding-top: 2rem;
 }
 
@@ -287,7 +287,7 @@ a:hover:after {
     background-color: #cfcdcb;
 }
 #ungoal h2{
-    font-size: 2.2vw;
+    font-size: 2rem;
     margin-top: 2.2vw;
 }
 /*-------------------------footer-------------------------*/
