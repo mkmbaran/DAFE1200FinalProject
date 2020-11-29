@@ -20,6 +20,7 @@ section > h2 {
 
 #urban1 p {
     font-size: 0.75rem;
+    clear: both;
 }
 
 #urban img {
@@ -28,6 +29,15 @@ section > h2 {
     margin-left: 0;
     margin-right: 0;
     text-align: center;
+    clear: both;
+}
+
+#solution {
+    max-width: 95%;
+}
+
+#solution p {
+    clear: both;
 }
 
 #solution img {
@@ -36,6 +46,7 @@ section > h2 {
     margin-left: 0;
     margin-right: 0;
     text-align: center;
+    clear: both;
 }
 
 #home .h1 {
