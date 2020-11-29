@@ -134,3 +134,15 @@ footer a:hover {
 .source1:hover{
     background-color: #b5bc9f;
 }
+
+#app1 {
+    clear: both;
+}
+
+#app2 {
+    clear: both;
+}
+
+#app3 {
+    clear: both;
+}
