@@ -243,7 +243,7 @@ a:hover:after {
 }
 
 /*-------------------Solution Page----------------*/
-
+/*
 #solution {
     margin-bottom: 0px;
 }
@@ -276,6 +276,8 @@ a:hover:after {
     width: auto;
     margin-bottom: 2rem;
 }
+
+ */
 
 /*--------------page sources-------------------*/
 #source {
@@ -387,7 +389,7 @@ footer a:hover {
     float: right;
     margin-bottom: 2rem;
 }
-
+/*
 #urban-farmer img {
     width: 100%;
     box-shadow: none;
@@ -398,6 +400,8 @@ footer a:hover {
 #urban-farmer {
     margin-bottom: 0px;
 }
+
+ */
 
 #homesolution img {
     float: left;
