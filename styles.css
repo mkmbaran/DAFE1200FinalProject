@@ -14,7 +14,7 @@ section {
 /*------------------------------Main Header--------------------------------- */
 
 header {
-    min-height: 40rem;
+    min-height: 100vh;
 
     /*
      * Image taken by Linda N: https://www.flickr.com/people/22748341@N00
@@ -23,7 +23,7 @@ header {
      * License can be found at: creativecommons.org/licenses/by/2.0/
      */
     /*background-image:url("images/farming.jpg");*/
-    background-image:url("images/farmingblackcropped.jpg");
+    background-image:url("images/farmingblack.jpg");
     background-position: top right;
     background-repeat: no-repeat;
     background-size: cover;
