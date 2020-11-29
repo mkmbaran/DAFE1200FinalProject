@@ -14,17 +14,16 @@ section {
 /*------------------------------Main Header--------------------------------- */
 
 header {
-    min-height: 100vh;
+    min-height: 50vh;
 
     /*
-      background-image:url("images/farming.jpg");
      * Image taken by Linda N: https://www.flickr.com/people/22748341@N00
      * The image has been edited.
      * Found at: https://en.wikipedia.org/wiki/Urban_agriculture#/media/File:New_crops-Chicago_urban_farm.jpg
      * License can be found at: creativecommons.org/licenses/by/2.0/
      */
     /*background-image:url("images/farming.jpg");*/
-    background-image:url("images/farmingblack.jpg");
+    background-image:url("images/farmingblackcropped.jpg");
     background-position: top right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -53,7 +52,7 @@ section {
 h2{
 
     font-size: 2rem;
-    padding-top: 2rem;
+    padding: 2rem;
 }
 
 h3 {
@@ -336,8 +335,7 @@ footer a:hover {
     width: 100%;
     box-shadow: none;
     object-fit: cover;
-    margin-bottom: 2rem;
-    max-height: 35rem;
+    max-height: 25rem;
 }
 
 .ungoal img{
@@ -350,6 +348,13 @@ footer a:hover {
 #urban1 img {
     float: right;
     margin-bottom: 40px;
+}
+
+#urban-farmer img {
+    width: 100%;
+    box-shadow: none;
+    object-fit: cover;
+    max-height: 25rem;
 }
 #solution img {
     float: left;
