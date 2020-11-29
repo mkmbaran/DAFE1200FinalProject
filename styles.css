@@ -262,21 +262,21 @@ a:hover:after {
     font-size: 1.2rem;
 }
 
-.app-home img{
-    float: right;
-    object-fit: cover;
-    max-height: 50rem;
-    width: auto;
-    margin-bottom: 2rem;
+.app{
+    max-width: 95%;
+    width: 75%;
+    margin: 0 auto;
+    font-size: 1.2rem;
 }
-.app-menu img{
-    float: right;
-    object-fit: cover;
-    max-height: 50rem;
-    width: auto;
-    margin-bottom: 2rem;
+
+.app p{
+    max-width: 95%;
+    width: 75%;
+    margin: 0 auto;
+    font-size: 1.2rem;
 }
-.app-search img{
+
+.app img{
     float: right;
     object-fit: cover;
     max-height: 50rem;
