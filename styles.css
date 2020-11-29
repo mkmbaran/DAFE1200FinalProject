@@ -268,14 +268,36 @@ a:hover:after {
     font-size: 1.2rem;
 }
 
-.app_photo img{
+.app-home img{
     float: right;
-    object-fit: cover;
-    max-height: 25rem;
+    /*object-fit: cover;*/
+    
+    margin-bottom: 2rem;
+}
+.app-menu img{
+    float: left;
+   /* object-fit: cover;*/
+    margin-bottom: 2rem;
+}
+.app-search img{
+    float: right;
+    /*object-fit: cover;*/
+
     margin-bottom: 2rem;
 }
 
 /*--------------page sources-------------------*/
+#source {
+    margin-bottom: 0px;
+}
+
+#source p{
+    max-width: 95%;
+    width: 75%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+
 .source{
     max-width: 95%;
     width: 75%;
