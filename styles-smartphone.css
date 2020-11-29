@@ -23,12 +23,11 @@ section > h2 {
     clear: both;
 }
 
-#urban img {
-    width: 80%;
-    height: 70%;
-    margin-left: 0;
-    margin-right: 0;
-    text-align: center;
+#urban1 img {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
     clear: both;
 }
 
@@ -53,6 +52,8 @@ section > h2 {
     flex-wrap: wrap;
 }
 
+
+#ungoal
 .fixed-top {
     flex-direction: column;
 }
