@@ -31,6 +31,10 @@ section > h2 {
     clear: both;
 }
 
+#ungoal h2 {
+    font-size: 1.5rem;
+}
+
 #solution {
     max-width: 95%;
 }
