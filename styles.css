@@ -14,7 +14,7 @@ section {
 /*------------------------------Main Header--------------------------------- */
 
 header {
-    min-height: 50vh;
+    min-height: 40rem;
 
     /*
      * Image taken by Linda N: https://www.flickr.com/people/22748341@N00
@@ -113,6 +113,14 @@ section > h2 > span {
 
 .box .button {
     font-size: 30px;
+}
+.source {
+
+    color: #002afa;
+
+}
+.source:hover{
+    background-color: #b5bc9f;
 }
 
 /*-------------------------------Fixed Top-----------------------------------*/
@@ -372,6 +380,7 @@ footer a:hover {
     float: left;
     margin-bottom: 50px;
 }
+
 
 /*
 @media(max-width: 1168px) {
