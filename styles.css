@@ -354,8 +354,13 @@ footer a:hover {
     width: 100%;
     box-shadow: none;
     object-fit: cover;
-    max-height: 25rem;
+    max-height: 30rem;
 }
+
+#urban-farmer {
+    margin-bottom: 0px;
+}
+
 #solution img {
     float: left;
     margin-bottom: 50px;
