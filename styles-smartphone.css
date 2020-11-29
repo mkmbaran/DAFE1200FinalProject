@@ -22,6 +22,22 @@ section > h2 {
     font-size: 0.75rem;
 }
 
+#urban img {
+    width: 80%;
+    height: 70%;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+}
+
+#solution img {
+    width: 80%;
+    height: 70%;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+}
+
 #home .h1 {
     flex-wrap: wrap;
 }
