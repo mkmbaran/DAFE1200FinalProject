@@ -14,7 +14,7 @@ section {
 /*------------------------------Main Header--------------------------------- */
 
 header {
-    min-height: 50vh;
+    min-height: 40rem;
 
     /*
      * Image taken by Linda N: https://www.flickr.com/people/22748341@N00
@@ -362,8 +362,13 @@ footer a:hover {
     width: 100%;
     box-shadow: none;
     object-fit: cover;
-    max-height: 25rem;
+    max-height: 30rem;
 }
+
+#urban-farmer {
+    margin-bottom: 0px;
+}
+
 #solution img {
     float: left;
     margin-bottom: 50px;
