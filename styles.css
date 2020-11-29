@@ -305,7 +305,7 @@ a:hover:after {
     font-size: 1.2rem;
 }
 
-.source a{
+.source p a{
     max-width: 95%;
     width: 75%;
     margin: 0 auto;
