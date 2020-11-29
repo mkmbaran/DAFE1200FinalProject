@@ -355,7 +355,10 @@ footer a:hover {
     float: left;
     margin-bottom: 50px;
 }
-
+#challenge img {
+    float: right;
+    margin-bottom: 40px;
+}
 /*
 @media(max-width: 1168px) {
     #urban1 .h2 {
