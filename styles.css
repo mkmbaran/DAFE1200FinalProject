@@ -270,19 +270,23 @@ a:hover:after {
 
 .app-home img{
     float: right;
-    /*object-fit: cover;*/
-    
+    object-fit: cover;
+    max-height: 50rem;
+    width: auto;
     margin-bottom: 2rem;
 }
 .app-menu img{
     float: left;
-   /* object-fit: cover;*/
+    object-fit: cover;
+    max-height: 50rem;
+    width: auto;
     margin-bottom: 2rem;
 }
 .app-search img{
     float: right;
-    /*object-fit: cover;*/
-
+    object-fit: cover;
+    max-height: 50rem;
+    width: auto;
     margin-bottom: 2rem;
 }
 
