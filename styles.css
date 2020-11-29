@@ -269,13 +269,6 @@ a:hover:after {
     font-size: 1.2rem;
 }
 
-.app p{
-    max-width: 95%;
-    width: 75%;
-    margin: 0 auto;
-    font-size: 1.2rem;
-}
-
 .app img{
     float: right;
     object-fit: cover;
