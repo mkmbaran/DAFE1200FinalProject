@@ -1,0 +1,136 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    background:#ffffff;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+
+    background-color: #157e3d;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    box-shadow: 0 0 7px rgba(13, 27, 15, 0.08);
+    align-items: center;
+}
+
+.fixed-top nav {
+    padding: .6rem 2rem;
+}
+
+.fixed-top .brand {
+    color: #f7faf9;
+    padding: 0 2rem;
+    font-size: 2rem;
+}
+
+
+.fixed-top nav a {
+    margin-left: 3rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: #ffffff;
+    transition: .08s;
+}
+
+.fixed-top nav a:hover {
+    background-color: #2f6a57;
+    color: #ffffff;
+}
+
+#urban-farmer img {
+    width: 100%;
+    box-shadow: none;
+    object-fit: cover;
+    max-height: 25rem;
+}
+
+#urban-farmer {
+    margin-bottom: 0px;
+}
+
+
+
+section > h2 {
+    position: relative;
+    text-align: center;
+    width: 84%;
+    margin: 3rem auto;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #384d45;
+}
+
+h2{
+
+    font-size: 2rem;
+    padding: 2rem;
+}
+#solution {
+    margin-bottom: 0px;
+}
+
+#solution p {
+    max-width: 95%;
+    width: 75%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+
+#solution ul{
+    max-width: 95%;
+    width: 75%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+
+.app{
+    max-width: 95%;
+    width: 75%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+
+.app img{
+    float: right;
+    object-fit: cover;
+    max-height: 50rem;
+    width: auto;
+    margin-bottom: 2rem;
+}
+
+
+/*-------------------------footer-------------------------*/
+footer {
+    background-color: #157e3d;
+    padding: 5rem;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+footer a:hover {
+    color: #090808;
+    background-color: #f8f6f6;
+    font-weight: bold;
+
+}
+.source1 {
+
+    color: #002afa;
+
+}
+.source1:hover{
+    background-color: #b5bc9f;
+}
