@@ -293,10 +293,17 @@ a:hover:after {
     padding: 40px;
     background-color: #cfcdcb;
 }
+
 #ungoal h2{
     font-size: 2rem;
     margin-top: 2.2vw;
 }
+
+#ungoal img{
+    font-size: 2rem;
+    margin-top: 2.2vw;
+}
+
 /*-------------------------footer-------------------------*/
 footer {
     background-color: #157e3d;
@@ -362,7 +369,7 @@ footer a:hover {
     width: 100%;
     box-shadow: none;
     object-fit: cover;
-    max-height: 25rem;
+    max-height: 35rem;
 }
 
 #urban-farmer {
