@@ -287,6 +287,17 @@ a:hover:after {
 }
 
 /*--------------page sources-------------------*/
+#source {
+    margin-bottom: 0px;
+}
+
+#source p{
+    max-width: 95%;
+    width: 75%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+
 .source{
     max-width: 95%;
     width: 75%;
