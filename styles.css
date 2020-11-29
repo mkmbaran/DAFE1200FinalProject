@@ -15,8 +15,9 @@ section {
 
 header {
     min-height: 100vh;
-    background-image:url("images/farming.jpg");
-    /* 
+
+    /*
+      background-image:url("images/farming.jpg");
      * Image taken by Linda N: https://www.flickr.com/people/22748341@N00
      * The image has been edited.
      * Found at: https://en.wikipedia.org/wiki/Urban_agriculture#/media/File:New_crops-Chicago_urban_farm.jpg
@@ -28,6 +29,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom: 2px solid #22442a;
+
 
 
 
@@ -49,8 +51,8 @@ section {
 }
 
 h2{
-    padding-top: 5rem;
-    padding-bottom: 0.5rem;
+
+    font-size: 1.9rem;
 }
 
 h3 {
@@ -86,6 +88,7 @@ section > h2 > span {
     background-color: #ffffff;
     padding: 0 2rem;
 }
+
 /*--------------------Button section---------------------------------*/
 .button {
     background-color: #157e3d;
@@ -94,7 +97,6 @@ section > h2 > span {
     padding: 15px 42px;
     text-align: center;
     text-decoration: none;
-    /*text-shadow: 1px 1px #272727;*/
     display: inline-block;
     font-size: 15px;
     font-family: "Roboto Regular";
@@ -212,7 +214,7 @@ a:hover:after {
 }
 
 
-/* Challenge Page */
+/*----------------Challenge Page----------------*/
 
 #challenge p {
     max-width: 95%;
@@ -238,7 +240,7 @@ a:hover:after {
 
 }
 
-/* Solution Page */
+/*-------------------Solution Page----------------*/
 
 #solution {
     margin-bottom: 0px;
@@ -251,6 +253,8 @@ a:hover:after {
     font-size: 1.2rem;
 }
 
+
+}
 #solution ul{
     max-width: 95%;
     width: 75%;
@@ -258,27 +262,23 @@ a:hover:after {
     font-size: 1.2rem;
 }
 
-/*--------------Delete! this not in use---------*/
-/*
-.item img{
-    opacity: 0.8;
-    height: auto;
-    max-width: 40%;
-    justify-content: center;
+/*--------------page sources-------------------*/
+.source{
+    max-width: 95%;
+    width: 75%;
+    margin: 0 auto;
+    font-size: 1.2rem;
 }
 
- */
+.source a{
+    max-width: 95%;
+    width: 75%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
 
 
-
-
-/*---------------------Delete---------*/
-
-
-
-
-
-/* UN Goal */
+/*----------------------------------------UN Goal --------------------------------------*/
 #ungoal p {
     max-width: 95%;
     width: 75%;
@@ -287,7 +287,11 @@ a:hover:after {
     padding: 40px;
     background-color: #cfcdcb;
 }
-/*footer*/
+#ungoal h2{
+    font-size: 2.2vw;
+    margin-top: 2.2vw;
+}
+/*-------------------------footer-------------------------*/
 footer {
     background-color: #157e3d;
     padding: 5rem;
@@ -307,29 +311,11 @@ footer a:hover {
 
 }
 
-.source{
-    max-width: 95%;
-    width: 75%;
-    margin: 0 auto;
-    font-size: 1.2rem;
-}
-.source p{
-    max-width: 95%;
-    width: 75%;
-    margin: 0 auto;
-    font-size: 1.2rem;
-}
 
-.source a{
-    max-width: 95%;
-    width: 75%;
-    margin: 0 auto;
-    font-size: 1.2rem;
-}
 
 
 /*
-@media(max-width: 640px) { 
+@media(max-width: 640px) {
     .fixed-top {
         flex-direction: row;
     }
@@ -338,9 +324,40 @@ footer a:hover {
         font-size: 1rem;
     }
 }
-*/
 
-/*@media(max-width: 1168px) {
+ */
+#city-mask {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+
+#city-mask img {
+    width: 100%;
+    box-shadow: none;
+    margin-bottom: 50px;
+    height: 450px;
+}
+
+.ungoal img{
+    opacity: 0.8;
+    height: auto;
+    max-width: 40%;
+    justify-content: left;
+
+}
+#urban1 img {
+    float: right;
+    margin-bottom: 40px;
+}
+#solution img {
+    float: left;
+    margin-bottom: 50px;
+}
+
+/*
+@media(max-width: 1168px) {
     #urban1 .h2 {
         padding: 0 .5rem;
     }
@@ -348,7 +365,15 @@ footer a:hover {
     #home .h1 {
         flex-wrap: wrap;
     }
-}*/
+}
+*/
+
+
+
+
+
+
+
 
 
 
