@@ -114,12 +114,12 @@ section > h2 > span {
 .box .button {
     font-size: 30px;
 }
-.source {
+.source1 {
 
     color: #002afa;
 
 }
-.source:hover{
+.source1:hover{
     background-color: #b5bc9f;
 }
 
@@ -266,6 +266,13 @@ a:hover:after {
     width: 75%;
     margin: 0 auto;
     font-size: 1.2rem;
+}
+
+.app_photo img{
+    float: right;
+    object-fit: cover;
+    max-height: 25rem;
+    margin-bottom: 2rem;
 }
 
 /*--------------page sources-------------------*/
