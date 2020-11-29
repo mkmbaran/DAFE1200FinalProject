@@ -329,7 +329,10 @@ a:hover:after {
 
 #ungoal img{
     font-size: 2rem;
-    margin-top: 2.2vw;
+    float: right;
+    vertical-align: middle;
+    width: auto;
+    max-height: 5rem;
 }
 
 /*-------------------------footer-------------------------*/
@@ -404,7 +407,7 @@ footer a:hover {
     margin-bottom: 0px;
 }
 
-#solution img {
+#homesolution img {
     float: left;
     margin-bottom: 2rem;
 }
