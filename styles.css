@@ -335,7 +335,8 @@ footer a:hover {
 #city-mask img {
     width: 100%;
     box-shadow: none;
-    margin-bottom: 50px;
+    object-fit: cover;
+    margin-bottom: 2rem;
     height: 450px;
 }
 
