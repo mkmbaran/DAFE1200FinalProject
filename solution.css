@@ -74,6 +74,7 @@ h2{
     padding: 2rem;
 }
 #solution {
+    clear: both;
     margin-bottom: 0px;
 }
 
@@ -137,12 +138,15 @@ footer a:hover {
 
 #app1 {
     clear: both;
+    font-size: 2rem;
 }
 
 #app2 {
     clear: both;
+    font-size: 2rem;
 }
 
 #app3 {
     clear: both;
+    font-size: 2rem;
 }
