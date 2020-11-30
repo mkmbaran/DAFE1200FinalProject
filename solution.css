@@ -99,6 +99,10 @@ h2{
     font-size: 1.2rem;
 }
 
+.app p{
+    width: 60%;
+}
+
 .app img{
     float: right;
     object-fit: cover;
@@ -110,6 +114,7 @@ h2{
 
 /*-------------------------footer-------------------------*/
 footer {
+    clear: both;
     background-color: #157e3d;
     padding: 5rem;
     color: #ffffff;

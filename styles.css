@@ -210,7 +210,6 @@ a:hover:after {
 
 #urban1 p {
     max-width: 95%;
-    /*width: 1000px;*/
     width: 75%;
     margin: 0 auto;
     font-size: 1.2rem;
@@ -226,7 +225,6 @@ a:hover:after {
 
 #challenge p {
     max-width: 95%;
-    /*width: 1000px;*/
     width: 75%;
     margin: 0 auto;
     font-size: 1.2rem;
