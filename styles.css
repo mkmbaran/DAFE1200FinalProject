@@ -201,7 +201,7 @@ a:hover:after {
 }
 
  */
-/*----------------end animaion nav bar----------------------*/
+/*----------------end animation top nav bar----------------------*/
 
 
 
@@ -240,42 +240,6 @@ a:hover:after {
 
 }
 
-/*-------------------Solution Page----------------*/
-/*
-#solution {
-    margin-bottom: 0px;
-}
-
-#solution p {
-    max-width: 95%;
-    width: 75%;
-    margin: 0 auto;
-    font-size: 1.2rem;
-}
-
-#solution ul{
-    max-width: 95%;
-    width: 75%;
-    margin: 0 auto;
-    font-size: 1.2rem;
-}
-
-.app{
-    max-width: 95%;
-    width: 75%;
-    margin: 0 auto;
-    font-size: 1.2rem;
-}
-
-.app img{
-    float: right;
-    object-fit: cover;
-    max-height: 50rem;
-    width: auto;
-    margin-bottom: 2rem;
-}
-
- */
 
 /*--------------page sources-------------------*/
 #source {
@@ -353,8 +317,8 @@ footer a:hover {
 
 
 
-
 /*
+
 @media(max-width: 640px) {
     .fixed-top {
         flex-direction: row;
@@ -366,6 +330,8 @@ footer a:hover {
 }
 
  */
+
+
 #city-mask {
     width: 100%;
     padding: 0;
@@ -391,19 +357,7 @@ footer a:hover {
     float: right;
     margin-bottom: 2rem;
 }
-/*
-#urban-farmer img {
-    width: 100%;
-    box-shadow: none;
-    object-fit: cover;
-    max-height: 25rem;
-}
 
-#urban-farmer {
-    margin-bottom: 0px;
-}
-
- */
 
 #homesolution img {
     float: left;
@@ -422,7 +376,9 @@ footer a:hover {
         flex-wrap: wrap;
     }
 }
-*/
+
+ */
+
 
 
 

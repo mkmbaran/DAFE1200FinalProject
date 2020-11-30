@@ -106,7 +106,7 @@ h2{
 .app img{
     float: right;
     object-fit: cover;
-    max-height: 50rem;
+    max-height: 40rem;
     width: auto;
     margin-bottom: 2rem;
 }
@@ -155,3 +155,5 @@ footer a:hover {
     clear: both;
     font-size: 2rem;
 }
+
+
