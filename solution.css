@@ -322,6 +322,9 @@ footer a:hover {
         float: none;
         clear: both;
         text-align: center;
+        margin: 0;
+        margin-right: 0;
+        width: 95%;
     }
 
     .app p {
