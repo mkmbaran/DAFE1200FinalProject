@@ -290,6 +290,8 @@ a:hover:after {
     width: auto;
     max-height: 12rem;
     margin-bottom: 2rem;
+    position: relative;
+    bottom: 25px;
 }
 
 /*-------------------------footer-------------------------*/
