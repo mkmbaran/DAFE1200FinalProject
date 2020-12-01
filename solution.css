@@ -257,6 +257,9 @@ footer a:hover {
     .app img {
         float: none;
         clear: both;
+        text-align: center;
+        width: 95%;
+        height: auto;
     }
 }
 
@@ -322,9 +325,8 @@ footer a:hover {
         float: none;
         clear: both;
         text-align: center;
-        margin: 0;
-        margin-right: 0;
         width: 95%;
+        height: auto;
     }
 
     .app p {
