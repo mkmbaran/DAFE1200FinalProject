@@ -236,6 +236,11 @@ a:hover:after {
     float: right
 }
 
+#homesolution img {
+    float: left;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+}
 
 /*----------------Challenge Page----------------*/
 
@@ -354,14 +359,6 @@ footer a:hover {
     box-shadow: none;
     object-fit: cover;
     max-height: 25rem;
-}
-
-
-
-#homesolution img {
-    float: left;
-    margin-bottom: 2rem;
-    margin-right: 2rem;
 }
 
 
