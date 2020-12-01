@@ -143,7 +143,7 @@ section > h2 > span {
 
 .fixed-top nav {
     padding: .6rem 2rem;
-    padding-right: 3rem;
+    padding-right: 4.5rem;
 }
 
 .fixed-top .brand {
@@ -154,7 +154,7 @@ section > h2 > span {
 
 
 .fixed-top nav a {
-    margin-left: 3rem;
+    margin-left: 1rem;
     padding: 0.25rem;
     text-decoration: none;
     color: #ffffff;

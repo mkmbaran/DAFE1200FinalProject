@@ -3,5 +3,10 @@
 }
 
 #source {
-    margin-bottom: 516px;
+    margin-bottom: 517px;
+}
+
+.fixed-top nav {
+    padding: .6rem 2rem;
+    padding-right: 8rem;
 }
