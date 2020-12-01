@@ -166,46 +166,7 @@ section > h2 > span {
     color: #ffffff;
     }
 
-
-/*--------------------animation top nav bar----------------------*/
-/*
-nav {
-    margin: 30px auto 0;
-    padding: 0;
-    list-style: none;
-    display: table;
-    width: 600px;
-    text-align: center;
-}
-a {
-    position: relative;
-   margin-right: 5rem;
-    padding: 15px 0;
-
-
-}
-a:after {
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
-    content: "";
-    display: block;
-    height: 1px;
-    left: 50%;
-    position: absolute;
-    background: #fff;
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 0;
-}
-a:hover:after {
-    width: 100%;
-    left: 0;
-}
-
- */
-/*----------------end animation top nav bar----------------------*/
-
-
-
+    
 
 /* Home Section */
 
@@ -299,17 +260,7 @@ a:hover:after {
     margin-top: 2.2vw;
 }
 
-/* #ungoal img{
-    font-size: 2rem;
 
-    vertical-align: middle;
-    float: right;
-    width: auto;
-    max-height: 12rem;
-    margin-bottom: 2rem;
-    position: relative;
-    bottom: 50px;
-}*/
 
 /*-------------------------footer-------------------------*/
 footer {
@@ -332,21 +283,6 @@ footer a:hover {
 
 
 
-/*
-
-@media(max-width: 640px) {
-    .fixed-top {
-        flex-direction: row;
-    }
-
-    .fixed-top nav a {
-        font-size: 1rem;
-    }
-}
-
- */
-
-
 #city-mask {
     width: 100%;
     padding: 0;
@@ -362,18 +298,6 @@ footer a:hover {
 }
 
 
-/*
-@media(max-width: 1168px) {
-    #urban1 .h2 {
-        padding: 0 .5rem;
-    }
-
-    #home .h1 {
-        flex-wrap: wrap;
-    }
-}
-
- */
 
 @media only screen and (max-width: 480px) {
     p {
@@ -537,11 +461,21 @@ footer a:hover {
     }
     
     #urban1 .h2 {
-        padding: 0 .5rem;
+        padding: 0.5rem;
     }
     
     #home .h1 {
         flex-wrap: wrap;
+    }
+
+    #homechallenge img{
+        clear: both;
+        float: none;
+    }
+
+    #homesolution img{
+        clear: both;
+        float: none;
     }
 
     .app img {
