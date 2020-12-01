@@ -275,11 +275,7 @@ a:hover:after {
     width: 75%;
     margin: 0 auto;
     font-size: 1.2rem;
-<<<<<<< HEAD
-    padding: 90px;
-=======
     padding: 5rem;
->>>>>>> 9958b11aa32a19b9735e920735f8ddf7c32f3c6a
     background-color: #cfcdcb;
 }
 
@@ -290,11 +286,9 @@ a:hover:after {
 
 #ungoal img{
     font-size: 2rem;
-<<<<<<< HEAD
-=======
+
     vertical-align: middle;
     float: right;
->>>>>>> 9958b11aa32a19b9735e920735f8ddf7c32f3c6a
     width: auto;
     max-height: 12rem;
     margin-bottom: 2rem;
@@ -321,7 +315,6 @@ footer a:hover {
     color: #090808;
     background-color: #f8f6f6;
     font-weight: bold;
-
 }
 
 
