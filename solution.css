@@ -71,7 +71,7 @@ section > h2 {
 h2{
 
     font-size: 2rem;
-    padding: 2rem;
+    padding: 0 0 1rem 0;
 }
 #solution {
     clear: both;
@@ -166,11 +166,19 @@ footer a:hover {
         font-size: 2.75rem;
     }
     
+    li {
+        font-size: 0.75rem
+    }
+    
     section > h2 {
         font-size: 1.5rem;
         margin-top: 20px;
         margin-bottom: 20px;
         padding-top: 40px;
+    }
+
+    #solution {
+        margin: 0px;
     }
     
     #urban h2 {
@@ -247,9 +255,9 @@ footer a:hover {
         display: block;
         text-align: center;
         padding: 80px 60px;
+           
     }
-    
-    
+
     #urban1 .h2 {
         padding: 0 .5rem;
     }
@@ -265,7 +273,7 @@ footer a:hover {
         display: block;
         text-align: center;
         padding: 80px 60px;
-    }    
+        margin-right: -25px;     }    
 }
 
 @media only screen and (max-width: 1023px) {

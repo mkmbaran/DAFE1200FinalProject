@@ -50,7 +50,6 @@ section {
 }
 
 h2{
-
     font-size: 2rem;
     padding: 2rem;
 }
@@ -144,6 +143,7 @@ section > h2 > span {
 
 .fixed-top nav {
     padding: .6rem 2rem;
+    padding-right: 3rem;
 }
 
 .fixed-top .brand {
@@ -155,7 +155,7 @@ section > h2 > span {
 
 .fixed-top nav a {
     margin-left: 3rem;
-    padding: 0.5rem;
+    padding: 0.25rem;
     text-decoration: none;
     color: #ffffff;
     transition: .08s;
@@ -187,14 +187,16 @@ section > h2 > span {
     width: 75%;
     margin: 0 auto;
     font-size: 1.2rem;
-    padding-right: 2rem;
+    /*padding-right: 2rem;*/
 }
 
 #homechallenge img{
     max-width: 95%;
     height: auto;
-    padding-bottom: 3rem;
-    float: right
+    float: right;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
 }
 
 #homesolution img {
@@ -210,7 +212,7 @@ section > h2 > span {
     width: 75%;
     margin: 0 auto;
     font-size: 1.2rem;
-    padding-right: 2rem;
+    /*padding-right: 2rem;*/
 }
 
 
@@ -307,6 +309,14 @@ footer a:hover {
     h1 span {
         font-size: 2.75rem;
     }
+
+    h2 {
+        padding: 0px;
+    }
+
+    li {
+        font-size: 0.75rem;
+    }
     
     section > h2 {
         font-size: 1.5rem;
@@ -343,6 +353,11 @@ footer a:hover {
     
     #solution {
         max-width: 95%;
+        margin: 0px;
+    }
+
+    section #solution {
+        margin: 0;
     }
     
     #solution p {
@@ -471,11 +486,14 @@ footer a:hover {
     #homechallenge img{
         clear: both;
         float: none;
+        margin-top: 0px;
+        margin-left: 0px;
     }
 
     #homesolution img{
         clear: both;
         float: none;
+        margin-right: 0px;
     }
 
     .app img {
