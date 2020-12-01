@@ -323,6 +323,11 @@ footer a:hover {
         clear: both;
         text-align: center;
     }
+
+    .app p {
+        margin-left: auto;
+        margin-right: auto;
+    }
     
     footer {
         display: block;
