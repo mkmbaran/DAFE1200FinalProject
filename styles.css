@@ -275,7 +275,7 @@ a:hover:after {
     width: 75%;
     margin: 0 auto;
     font-size: 1.2rem;
-    padding: 90px;
+    /*padding: 90px;*/
     background-color: #cfcdcb;
 }
 
