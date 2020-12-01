@@ -287,10 +287,9 @@ a:hover:after {
 #ungoal img{
     font-size: 2rem;
     float: right;
-    vertical-align: middle;
     width: auto;
     max-height: 12rem;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 
 /*-------------------------footer-------------------------*/
