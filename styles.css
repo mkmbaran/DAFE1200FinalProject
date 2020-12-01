@@ -286,6 +286,7 @@ a:hover:after {
 
 #ungoal img{
     font-size: 2rem;
+
     vertical-align: middle;
     float: right;
     width: auto;
@@ -312,7 +313,6 @@ footer a:hover {
     color: #090808;
     background-color: #f8f6f6;
     font-weight: bold;
-
 }
 
 
