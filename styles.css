@@ -237,7 +237,7 @@ a:hover:after {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 3rem;
-
+    float: right;
 }
 
 
