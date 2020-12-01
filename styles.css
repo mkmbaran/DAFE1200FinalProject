@@ -227,10 +227,9 @@ a:hover:after {
 #challenge p {
     max-width: 95%;
     width: 75%;
-    margin-left: 15px;
+    margin: 0 auto;
     font-size: 1.2rem;
     padding-right: 2rem;
-    white-space: nowrap;
 }
 
 #challenge img{
