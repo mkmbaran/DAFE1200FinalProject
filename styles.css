@@ -275,7 +275,7 @@ a:hover:after {
     width: 75%;
     margin: 0 auto;
     font-size: 1.2rem;
-    padding: 90px;
+    /*padding: 90px;*/
     background-color: #cfcdcb;
 }
 
@@ -286,7 +286,7 @@ a:hover:after {
 
 #ungoal img{
     font-size: 2rem;
-    float: right;
+    vertical-align: middle;
     width: auto;
     max-height: 12rem;
     margin-bottom: 4rem;
