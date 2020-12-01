@@ -289,7 +289,9 @@ a:hover:after {
     vertical-align: middle;
     width: auto;
     max-height: 12rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
+    position: relative;
+    bottom: 25px;
 }
 
 /*-------------------------footer-------------------------*/
