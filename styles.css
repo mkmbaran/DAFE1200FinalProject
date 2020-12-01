@@ -207,7 +207,7 @@ a:hover:after {
 
 
 
-/* Urban Farming Section */
+/* Home Section */
 
 #urban1 p {
     max-width: 95%;
@@ -221,6 +221,21 @@ a:hover:after {
     margin-bottom: 0rem;
 }
 
+#homechallenge p {
+    max-width: 95%;
+    width: 75%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    padding-right: 2rem;
+}
+
+#homechallenge img{
+    max-width: 95%;
+    height: auto;
+    padding-bottom: 3rem;
+    float: right
+}
+
 
 /*----------------Challenge Page----------------*/
 
@@ -230,13 +245,6 @@ a:hover:after {
     margin: 0 auto;
     font-size: 1.2rem;
     padding-right: 2rem;
-}
-
-#challenge img{
-    max-width: 95%;
-    height: auto;
-    padding-bottom: 3rem;
-    float: right
 }
 
 
